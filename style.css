@@ -1,0 +1,78 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+} 
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.Caretta{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.Caretta {
+    display: flex; 
+    gap: 50px; 
+}
+
+.Caretta > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.Caretta {
+    display: flex;
+    gap: 50px;
+
+}
+form {
+    background-color: rgb(228, 86, 86);
+    padding: 60px 0;
+    width: 70%%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: rgb(20, 9, 171);
+
+}
+.Caretta input,select {
+    flex: 1;
+    min-width: 2126px;
+    padding: 4px 14px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+}
+button {
+    width: 100%;
+    padding: 2px 150px;
+    border-radius: 15px;
+    border: 1.6px solid #2d00f6;
+    background-color: rgb(16, 58, 174);
+    color: rgb(28, 255, 251);
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.Caretta input,select {
+        flex: 1;
+        min-width: 226px;
+        padding: 4px 14px;
+        border-radius: 7px;
+        border: 1px solid transparent;
+    }
+
+
+
+
